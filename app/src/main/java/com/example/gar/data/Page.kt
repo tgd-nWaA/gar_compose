@@ -10,6 +10,5 @@ data class Page (
     var id: Int,
     var sequence: Int = 1,
     var lastTimeRepeat: Long = Calendar.getInstance().timeInMillis,
-    var isSelected : Boolean = false
 )
 
